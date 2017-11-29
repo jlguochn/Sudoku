@@ -37,6 +37,7 @@ function initialize(){
 			visit_column[i][j] = 0;
 			visit_a[i][j] = 0;
 			visit_area[i][j] = 0;
+			document.getElementById((i-1)*9+j).style.backgroundColor = "white";
 		}
 	}
 }
