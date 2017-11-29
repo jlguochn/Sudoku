@@ -20,6 +20,12 @@ for(var i=1;i<=9;i++){
 	}
 }
 
+function clearinput(){
+	for(var i=1;i<=81;i++){
+		document.getElementById(i).value = "";
+	}
+}
+
 function initialize(){
 	end = 0;
 	check = 0;
